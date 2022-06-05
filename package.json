@@ -9,5 +9,8 @@
   },
   "devDependencies": {
     "vite": "^2.9.9"
+  },
+  "engines": {
+    "node": "16.15.0"
   }
 }
