@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,19 @@
   <title>Login Page</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
+
 <body>
-    <nav id="navbar">
-      <a href="" class="logo">abdullmustyy</a>
-      <ul class="nav-list">
-        <li class="nav-link"><a href="login.html">LOGIN</a></li>
+  <nav id="navbar">
+    <a href="" class="logo">abdullmustyy</a>
+    <ul class="nav-list">
+      <li class="nav-link current"><a href="login.html" class="current-link">LOG IN</a></li>
       <li class="nav-link"><a href="register.html">REGISTER</a></li>
       <li class="nav-link"><a href="contact.html">CONTACT</a></li>
       <li class="nav-link"><a href="index.html">HOME</a></li>
-      </ul>
-    </nav>
+    </ul>
+  </nav>
 
   <main>
     <header class="loginpage-intro">
@@ -26,13 +28,16 @@
       <p class="header-p">Welcome!</p>
     </header>
 
-    <section>
+    <section class="page-section">
+      <h4>Don't have an account? <a href="register.html" class="reg-login">Sign Up</a></h4>
       <hr class="top-hr">
-      <form action="#">
+      <form action="#" class="login-form">
         <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br>
+        <input type="email" id="email" name="email" placeholder="email@outlook.com" required><br>
         <label for="pwd">Password:</label><br>
         <input type="password" id="pwd" name="password" minlength="8" required><br>
+        <input type="checkbox" id="remember-me" name="remember-me" title="Remember-Me">
+        <p class="remember-me">Remember me <span class="forgot-password">Forgot password?</span></p><br>
         <input type="submit" value="SIGN IN" class="submit-btn">
       </form>
       <hr class="btm-hr">
@@ -65,10 +70,11 @@
           <i class="fa-brands fa-github fa-stack-1x fa-inverse"></i>
         </span>
       </a>
+      <p>Copyright &copy Abdullahi Mustafa 2022</p>
     </section>
-    <p>Copyright &copy Abdullahi Mustafa 2022</p>
   </footer>
   <script src="script.js"></script>
   <script src="https://kit.fontawesome.com/c9d81ecc03.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

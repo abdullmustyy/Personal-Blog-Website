@@ -15,9 +15,9 @@
   <nav id="navbar">
     <a href="" class="logo">abdullmustyy</a>
     <ul class="nav-list">
-      <li class="nav-link"><a href="login.html">LOGIN</a></li>
+      <li class="nav-link"><a href="login.html">LOG IN</a></li>
       <li class="nav-link"><a href="register.html">REGISTER</a></li>
-      <li class="nav-link"><a href="contact.html">CONTACT</a></li>
+      <li class="nav-link current"><a href="contact.html" class="current-link">CONTACT</a></li>
       <li class="nav-link"><a href="index.html">HOME</a></li>
     </ul>
   </nav>
@@ -28,17 +28,17 @@
       <p class="header-p">Reach out to me for Business Enquiries.</p>
     </header>
 
-    <section>
+    <section class="page-section">
       <hr class="top-hr">
-      <form action="#">
+      <form action="#" class="contact-form">
         <label for="fname">First Name:</label><br>
-        <input type="text" id="fname" name="fname" required><br>
+        <input type="text" id="fname" name="fname" placeholder="First Name" required><br>
         <label for="lname">Last Name:</label><br>
-        <input type="text" id="lname" name="lname" required><br>
+        <input type="text" id="lname" name="lname" placeholder="Last Name" required><br>
         <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br>
+        <input type="email" id="email" name="email" placeholder="email@yahoo.com" required><br>
         <label for="message">Message:</label><br>
-        <textarea name="message" id="message" cols="30" rows="5" required></textarea><br>
+        <textarea name="message" id="message" cols="60" rows="5" placeholder="Add message" required></textarea><br>
         <input type="submit" value="REACH OUT" class="submit-btn">
       </form>
       <hr class="btm-hr">
@@ -71,8 +71,8 @@
           <i class="fa-brands fa-github fa-stack-1x fa-inverse"></i>
         </span>
       </a>
+      <p>Copyright &copy Abdullahi Mustafa 2022</p>
     </section>
-    <p>Copyright &copy Abdullahi Mustafa 2022</p>
   </footer>
   <script src="script.js"></script>
   <script src="https://kit.fontawesome.com/c9d81ecc03.js" crossorigin="anonymous"></script>
