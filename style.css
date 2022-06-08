@@ -104,8 +104,8 @@ input {
 
 input,
 textarea,
-section {
-  border: 1px solid rgb(21, 20, 21);
+select {
+  border: 1px solid rgb(103, 96, 103);
 }
 
 input:hover {
@@ -125,7 +125,8 @@ nav {
 p,
 li,
 h4,
-form {
+form,
+select {
   color: gray;
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
@@ -136,6 +137,7 @@ section {
 }
 
 select {
+  border-radius: 1rem;
   height: 2rem;
   width: 50%;
 }
@@ -178,7 +180,7 @@ td {
 
 .login-form,
 .contact-form {
-  line-height: 2rem;
+  line-height: 3rem;
   width: 60%;
 }
 
