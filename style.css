@@ -155,7 +155,7 @@ table {
 }
 
 td {
-  padding: 1rem;
+  padding: 0 1rem 1rem;
 }
 
 /* class selectors */
@@ -232,6 +232,10 @@ td {
 
 .page-section {
   background-color: rgb(245, 249, 252);
+}
+
+.reg-form {
+  line-height: 2rem;
 }
 
 .reg-login {
