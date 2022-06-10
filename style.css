@@ -4,8 +4,6 @@
 ::-webkit-scrollbar {
   background-color: transparent;
   width: 6px;
-  position: relative;
-  z-index: 1;
 }
 
 /* Handle */
